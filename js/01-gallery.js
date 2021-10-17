@@ -35,15 +35,15 @@ if (evt.code !== 'Escape') {
     originalImage.close();
 }
 
-// galleryImages.addEventListener('click', evt => {
-//     evt.preventDefault();
-//     if (evt.target.nodeName !== "IMG") {
-//         return;
-//     }
-//     originalImage = basicLightbox.create(`
-// 		<img src="${evt.target.dataset.source}" width="1280" height="900">
-// 	`)
-//     originalImage.show()
-// });
+galleryImages.addEventListener('click', evt => {
+    evt.preventDefault();
+    if (evt.target.nodeName !== "IMG") {
+        return;
+    }
+    originalImage = basicLightbox.create(`
+		<img src="${evt.target.dataset.source}" width="1200" height="900">
+	`)
+    originalImage.show()
+});
 
 console.log(galleryItems);
