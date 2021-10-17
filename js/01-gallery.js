@@ -28,13 +28,6 @@ function createGalleryItemCardsImage(galleryItems) {
         .join('');
 }
 
-function onClickEscCloseImage(evt) {
-if (evt.code !== 'Escape') {
-      return;
-    }
-    originalImage.close();
-}
-
 galleryImages.addEventListener('click', evt => {
     evt.preventDefault();
     if (evt.target.nodeName !== "IMG") {
@@ -46,4 +39,11 @@ galleryImages.addEventListener('click', evt => {
     originalImage.show()
 });
 
+
+function onClickEscCloseImage(evt) {
+if (evt.code !== 'Escape') {
+      return;
+    }
+    originalImage.close();
+}
 console.log(galleryItems);
