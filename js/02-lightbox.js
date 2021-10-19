@@ -19,6 +19,12 @@ function createGalleryItemCardsImage(galleryItems) {
         .join('');
 }
 
-
+var lightbox = new SimpleLightbox('.gallery a', {
+    captions: true,
+    captionsData: 'alt',
+    captionPosition: 'bottom',
+    captionDelay: 250,
+    
+ });
 
 console.log(galleryItems);
