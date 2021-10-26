@@ -14,7 +14,7 @@
 
 ## Стартовые файлы
 
-[Скачай стартовые файлы](https://downgit.github.io/#/home?url=https://github.com/goitacademy/javascript-homework/tree/main/v2/07/src)
+[Скачай стартовые файлы] (https://downgit.github.io/#/home?url=https://github.com/goitacademy/javascript-homework/tree/main/v2/07/src)
 с базовой разметкой, готовыми стилями и подключенными файлами скриптов для
 каждого задания. Скопируй их себе в проект.
 
